@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: "Mtavruli";
+    src: local("Mtavruli"), url(./assets/bpg_nino_mtavruli_bold.ttf) format("truetype");
+}
+body {
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
